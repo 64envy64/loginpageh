@@ -591,7 +591,7 @@ transform-origin: 50% 50%;
 transition: 0.3s;
 }
 .menu .dropbtn:hover::after {
-transform: scaleX(1);
+transform: scaleX(0.9);
 }
 
 body.open .menu .dropbtn {
@@ -764,11 +764,9 @@ display: none;
 .lang-name {
 display: none;
 }
-}
-@media (max-width: 700px) {
 .lang-dropdown-list {
-width: 100px; /* Уменьшаем ширину для маленьких экранов */
-}
+  width: 100px; /* Уменьшаем ширину для маленьких экранов */
+  }
 }
 .text-box {
   width: 100%;
@@ -861,10 +859,10 @@ transform: translateY(-30%);
 .box-container .box {
 height: 15rem;
 width: 24rem;
-background: #fff;
+background: #f7f7f7;
 text-align: center;
 border-radius: 1rem;
-box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.123);
+box-shadow: 0 .1rem .5rem rgba(0, 0, 0, 0.123);
 margin: 4rem;
 cursor: pointer;
 }
@@ -876,7 +874,7 @@ text-align: center;
 border-radius: 50%;
 color: #fff;
 background: #514fd5;
-font-size: 2rem;
+font-size: 1.6rem;
 margin: 2rem 0;
 transition: .2s;
 }
@@ -894,11 +892,11 @@ transition: .2s;
 }
 
 .c-button--gooey {
-  color: #c2c1ff;
-  background-color: #fdfdfd21;
+  color: #ffffff;
+  background-color: #514fd5;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  border: 2px solid #514fd5a8;
+  border: 2px solid #514fd5;
   border-radius: 5px;
   position: relative;
   transition: all 700ms ease;
@@ -917,7 +915,7 @@ transition: .2s;
 }
 
 .c-button--gooey .c-button__blobs div {
-  background-color: #514fd5;
+  background-color: #ffa405;
   width: 34%;
   height: 100%;
   border-radius: 100%;
@@ -941,7 +939,8 @@ transition: .2s;
 }
 
 .c-button--gooey:hover {
-  color: #fff;
+  color: #0e0e0e;
+  border: 2px solid #ffa405;
 }
 
 .c-button--gooey:hover .c-button__blobs div {
