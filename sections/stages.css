@@ -344,7 +344,7 @@ opacity: 0;
 .sub-header {
 min-height: 45vh;
 width: 100%;
-background-image: linear-gradient(rgba(2, 4, 14, 0.685),rgba(2, 4, 14, 0.418)), url(images/aboutus.jpg);
+background-image: linear-gradient(rgba(2, 4, 14, 0.685),rgba(2, 4, 14, 0.418)), url(../images/aboutus.jpg);
 background-position: center;
 background-size: cover;
 text-align: center;
@@ -546,7 +546,7 @@ transform-origin: 50% 50%;
 transition: 0.3s;
 }
 .menu .dropbtn:hover::after {
-transform: scaleX(1);
+transform: scaleX(0.9);
 }
 
 body.open .menu .dropbtn {
@@ -825,11 +825,6 @@ a {
 	color: var(--primary);
 	transition: color var(--trans-dur);
 }
-body,
-button {
-	color: var(--fg);
-	font: 1em/1.5 "IBM Plex Sans", sans-serif;
-}
 .timeline-cont {
   padding: 0 1.5em;
 }
@@ -872,6 +867,8 @@ h1 {
 	outline: transparent;
 	width: 2em;
 	height: 2em;
+  color: var(--fg);
+	font: 1em/1.5 "IBM Plex Sans", sans-serif;
 	transition:
 		background-color calc(var(--trans-dur) / 2) linear,
 		color var(--trans-dur);

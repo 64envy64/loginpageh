@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     opacity: 0, 
     easing: 'ease-in-out'
 });
+
   ScrollReveal().reveal('.wrapper', { ...revealOptions, opacity: 0 });
   ScrollReveal().reveal('.cta', { ...revealOptions, opacity: 0 });
   ScrollReveal().reveal('.cta h1', { ...revealOptions, opacity: 0, duration: 500 });
@@ -40,4 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
   ScrollReveal().reveal('#firstcard', { ...revealOptions, origin: 'left', distance: '20px' });
   ScrollReveal().reveal('#secondcard', { ...revealOptions, origin: 'top', distance: '20px' });
   ScrollReveal().reveal('#thirdcard', { ...revealOptions, origin: 'right', distance: '20px' });
+
+  /* CAMPUS */
+  ScrollReveal().reveal('.homes', { ...revealOptions, origin: 'bottom', distance: '20px', delay: 800 });
+  ScrollReveal().reveal('.about', { ...revealOptions, origin: 'bottom', distance: '35px' });
 });

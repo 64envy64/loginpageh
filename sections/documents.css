@@ -511,7 +511,7 @@ transform-origin: 50% 50%;
 transition: 0.3s;
 }
 .menu .dropbtn:hover::after {
-transform: scaleX(1);
+transform: scaleX(0.9);
 }
 
 body.open .menu .dropbtn {
